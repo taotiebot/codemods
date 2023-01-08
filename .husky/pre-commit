@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# git update-index --again
+pnpm run test:unit # should be pr
+npx lint-staged

@@ -1,20 +1,55 @@
 {
-  "name": "codemods",
+  "name": "@taotiebot/codemods",
   "version": "0.0.1",
-  "description": "A module containing js codemods for feature flag removal",
+  "private": false,
+  "license": "Apache 2.0",
+  "description": "A module containing typescript code modifiers for feature flag removal",
+  "author": "",
+  "homepage": "https://github.com/taotiebot/codemods#readme",
+  "repository": "taotiebot/codemods.git",
+  "engines": {
+    "node": "19.2.0",
+    "pnpm": ">=7.18.1",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm"
+  },
+  "packageManager": "pnpm@7.18.1",
+  "bugs": "https://github.com/taotiebot/codemods/issues",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "npm-run-all --parallel format:*",
+    "format:packages": "syncpack format",
+    "lint:fix": "echo \"Error: no lint:fix specified\" && exit 0",
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "echo \"Error: no test:unit specified\" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/taotiebot/codemods.git"
+  "devDependencies": {
+    "@commitlint/cli": "17.4.0",
+    "@newlevelup/commitlint-config": "1.1.2",
+    "@newlevelup/syncpack-config": "1.0.0",
+    "@types/node": "18.11.18",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.0",
+    "npm-run-all": "4.1.5",
+    "syncpack": "8.4.11"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/taotiebot/codemods/issues"
+  "keywords": [
+    "code",
+    "flags",
+    "mods",
+    "removal",
+    "taotie",
+    "typescript"
+  ],
+  "commitlint": {
+    "extends": [
+      "@newlevelup"
+    ]
   },
-  "homepage": "https://github.com/taotiebot/codemods#readme"
+  "lint-staged": {
+    "package.json": [
+      "pnpm run format:packages"
+    ]
+  }
 }
