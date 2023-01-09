@@ -1,0 +1,42 @@
+{
+  "files.eol": "\n",
+
+  "prettier.requireConfig": true,
+
+  "eslint.enable": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.debug": false,
+
+  "material-icon-theme.files.associations": {
+    "*.spec.ts": "test-ts",
+    "*.test.ts": "test-ts",
+    "jest.unit.json": "jest",
+    "tsconfig.paths.json": "tsconfig",
+  },
+
+  "material-icon-theme.folders.associations": {},
+
+  "cSpell.words": [
+    "commitlint",
+    "commitlintrc",
+    "frontmatter",
+    "lintstaged",
+    "lintstagedrc",
+    "newlevelup",
+    "oclif",
+    "postpack",
+    "prepack",
+    "taotie",
+    "typecheck",
+    "posttest",
+    "taotiebot",
+    "codemods",
+    "npmrc",
+    "remarkignore",
+    "remarkrc",
+    "sergey",
+    "syncpack",
+    "syncpackrc",
+    "tsbuildinfo",
+  ]
+}
