@@ -1,0 +1,22 @@
+{
+    "printer": "putout",
+    "match": {
+      "**/{packages}/{plugin}-*": {
+            "putout": "on"
+        },
+        "**/packages/plugin-*/*.md{json}": {
+            "putout-config": "on"
+        }
+    },
+    "rules": {
+        "typescript": "on",
+        "plugin-conditions": "on",
+        "reduce-logical-expression": "on",
+        "logical-expressions": "on",
+        "simplify-assignment": "on",
+        "simplify-ternary": "on"
+    },
+    "ignore": [
+        ".husky"
+    ]
+}
