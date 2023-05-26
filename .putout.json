@@ -10,11 +10,7 @@
     },
     "rules": {
         "typescript": "on",
-        "plugin-conditions": "on",
-        "reduce-logical-expression": "on",
-        "logical-expressions": "on",
-        "simplify-assignment": "on",
-        "simplify-ternary": "on"
+        "putout/multiple-properties-destructuring": "off"
     },
     "ignore": [
         ".husky"

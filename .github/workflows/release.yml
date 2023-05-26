@@ -42,9 +42,6 @@ jobs:
           # Tokens for semantic release
           GITHUB_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
-          # Github token for publishing package to Github Package Registry
-          GITHUB_NPM_TOKEN: ${{ secrets.GH_PACKAGE_TOKEN }}
-          GITHUB_NPM_CONFIG_REGISTRY: ${{ env.GITHUB_CONFIG_REGISTRY }}
           # NPM token for publishing package to NPM Public Package Registry
           PUBLIC_NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           PUBLIC_NPM_CONFIG_REGISTRY: ${{ env.NPM_CONFIG_REGISTRY }}

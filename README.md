@@ -4,4 +4,4 @@
 
 ## LICENSE
 
-[MIT] &copy; Murshid Azher.
+\[MIT] © Murshid Azher.

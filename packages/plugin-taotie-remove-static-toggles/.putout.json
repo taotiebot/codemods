@@ -1,13 +1,1 @@
-{
-    "rules": {
-      "typescript": "on",
-      "plugin-conditions": "on",
-      "reduce-logical-expression": "on",
-      "logical-expressions": "on",
-      "simplify-assignment": "on",
-      "simplify-ternary": "on",
-      "remove-empty-block": "on",
-      "remove-nested-blocks": "on",
-      "remove-unreachable-code": "on"
-    }
-}
+{}

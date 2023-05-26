@@ -19,4 +19,3 @@ test('plugin-taotie-remove-static-toggles: transform', (t) => {
     t.transform('simple-if');
     t.end();
 });
-
