@@ -14,6 +14,12 @@ It's like having a swarm of ravenous beasts on a mission to make your code toggl
 
 So, release the Taotie beasts, and watch them munch their way to a more streamlined and enjoyable codebase! 🍽️🔧
 
+## Installation
+
+```sh
+npm i -D putout  # <other-taotie-plugins> as required
+```
+
 ## Plugins
 
 Plugins can be installed separately.
