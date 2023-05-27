@@ -2,6 +2,7 @@
   "name": "@taotie/codemods",
   "private": true,
   "license": "MIT",
+  "type": "commonjs",
   "description": "🐊 Putout codemods for taotie",
   "author": "Murshid Azher <hello@murshidazher.com>",
   "homepage": "https://github.com/taotiebot/codemods#readme",
@@ -29,11 +30,11 @@
     "@newlevelup/editor-config": "^1.0.1",
     "@newlevelup/eslint-config": "^1.0.49",
     "@newlevelup/prettier-config": "^1.0.7",
-    "@newlevelup/release-config": "^1.0.6",
+    "@newlevelup/release-config": "1.0.2",
     "@newlevelup/remark-config": "^1.0.9",
     "@newlevelup/stylelint-config": "^1.1.20",
     "@newlevelup/syncpack-config": "^1.2.0",
-    "@qiwi/multi-semantic-release": "6.7.0",
+    "@qiwi/multi-semantic-release": "6.5.1",
     "eslint": "8.41.0",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-putout": "^17.0.0",
@@ -49,7 +50,9 @@
     "syncpack": "9.8.6",
     "typescript": "5.0.4"
   },
-  "resolutions": {},
+  "resolutions": {
+    "semantic-release": "19.0.5"
+  },
   "keywords": [
     "config",
     "taotie"
