@@ -18,8 +18,8 @@ So, release the Taotie beasts, and watch them munch their way to a more streamli
 
 Plugins can be installed separately.
 
-- :package: [`plugin-taotie-remove-static-toggles`](packages/plugin-taotie-remove-static-toggles) ![Package version](https://img.shields.io/github/package-json/v/taotiebot/codemods?filename=packages%2Fplugin-taotie-remove-static-toggles%2Fpackage.json\&label=%20\&color=0080FF) [![NPM version](https://img.shields.io/npm/v/putout-plugin-taotie-remove-static-toggles?label=\&logo=npm\&color=CB0001)](https://www.npmjs.com/package/putout-plugin-taotie-remove-static-toggles)
+- :package: [`plugin-taotie-remove-static-toggles`](packages/plugin-taotie-remove-static-toggles) ![Package version](https://img.shields.io/github/package-json/v/taotiebot/codemods?filename=packages%2Fplugin-taotie-remove-static-toggles%2Fpackage.json&label=%20&color=0080FF) [![NPM version](https://img.shields.io/npm/v/putout-plugin-taotie-remove-static-toggles?label=&logo=npm&color=CB0001)](https://www.npmjs.com/package/putout-plugin-taotie-remove-static-toggles)
 
 ## LICENSE
 
-[MIT](./LICENSE) © Murshid Azher.
+[Apache 2.0](./LICENSE) © Murshid Azher.
