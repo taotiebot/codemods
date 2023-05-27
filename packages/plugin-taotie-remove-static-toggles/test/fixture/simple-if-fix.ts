@@ -1,12 +1,3 @@
-import {featureFlag, f1, f2} from './common';
-
-const context = {
-    featureFlag: true,
-    fflag: {
-        featureFlag: true,
-    },
-};
-
 // If feature flag is true
 {
     f1();
