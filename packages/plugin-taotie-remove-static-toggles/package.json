@@ -1,6 +1,6 @@
 {
   "name": "putout-plugin-taotie-remove-static-toggles",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": false,
   "license": "MIT",
   "description": "🐊 Putout plugin for removing static based feature toggles",
