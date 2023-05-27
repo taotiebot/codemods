@@ -1,13 +1,13 @@
 {
   "name": "@taotie/codemods",
   "private": true,
-  "license": "MIT",
-  "type": "commonjs",
+  "license": "Apache",
   "description": "🐊 Putout codemods for taotie",
   "author": "Murshid Azher <hello@murshidazher.com>",
   "homepage": "https://github.com/taotiebot/codemods#readme",
   "repository": "taotiebot/codemods.git",
   "bugs": "https://github.com/taotiebot/codemods/issues",
+  "type": "commonjs",
   "workspaces": [
     "packages/*"
   ],
@@ -17,6 +17,7 @@
     "format:md": "remark . -o --",
     "format:mismatches": "syncpack fix-mismatches --filter 'putout-plugin'",
     "format:packages": "syncpack format",
+    "format:prettier": "prettier . --write",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "eslint --cache .",
     "prepare": "is-ci || husky install",
@@ -32,7 +33,6 @@
     "@newlevelup/prettier-config": "1.0.7",
     "@newlevelup/release-config": "1.0.2",
     "@newlevelup/remark-config": "1.0.9",
-    "@newlevelup/stylelint-config": "1.1.20",
     "@newlevelup/syncpack-config": "1.2.0",
     "@qiwi/multi-semantic-release": "6.5.1",
     "eslint": "8.41.0",
@@ -46,7 +46,6 @@
     "putout-plugin-taotie-remove-static-toggles": "*",
     "remark": "14.0.3",
     "remark-cli": "11.0.0",
-    "stylelint": "15.6.2",
     "syncpack": "8.4.11",
     "typescript": "5.0.4"
   },
@@ -65,20 +64,13 @@
   },
   "eslintConfig": {
     "extends": [
-      "@newlevelup",
-      "plugin:n/recommended",
-      "plugin:putout/recommended"
+      "@newlevelup"
     ],
     "rules": {
       "no-useless-return": "off",
       "@typescript-eslint/array-type": "off"
-    },
-    "plugins": [
-      "putout",
-      "n"
-    ]
+    }
   },
-  "prettier": "@newlevelup/prettier-config",
   "release": {
     "extends": "@newlevelup/release-config",
     "branches": [
@@ -113,12 +105,6 @@
       {
         "extends": [
           "packages:eslint"
-        ],
-        "semanticCommitType": "fix"
-      },
-      {
-        "extends": [
-          "packages:stylelint"
         ],
         "semanticCommitType": "fix"
       },

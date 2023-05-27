@@ -1,1 +1,1 @@
-module.exports = require('@newlevelup/syncpack-config');
+module.exports = require('@newlevelup/syncpack-config')

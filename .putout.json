@@ -1,18 +1,31 @@
 {
-    "printer": "putout",
-    "match": {
-      "**/{packages}/{plugin}-*": {
-            "putout": "on"
-        },
-        "**/packages/plugin-*/*.md{json}": {
-            "putout-config": "on"
-        }
+  "printer": "putout",
+  "match": {
+    "**/{packages}/{plugin}-*": {
+      "putout": "on"
     },
-    "rules": {
-        "typescript": "on",
-        "putout/multiple-properties-destructuring": "off"
+    "**/packages/plugin-*/*.md{json}": {
+      "putout-config": "on"
     },
-    "ignore": [
-        ".husky"
-    ]
+    "README.md": {
+      "putout": "off"
+    }
+  },
+  "rules": {
+    "typescript": "on",
+    "putout/multiple-properties-destructuring": "off"
+  },
+  "ignore": [
+    "**/node_modules",
+    "**/fixture",
+    "CHANGELOG.md",
+    "**/CHANGELOG.md",
+    "**/.nyc_output",
+    "**/coverage",
+    "**/dist",
+    "**/dist-dev",
+    "**/build",
+    "**/package-lock.json",
+    ".husky"
+  ]
 }
