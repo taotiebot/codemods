@@ -1,0 +1,18 @@
+{
+    "printer": "putout",
+    "match": {
+      "**/{packages}/{plugin}-*": {
+            "putout": "on"
+        },
+        "**/packages/plugin-*/*.md{json}": {
+            "putout-config": "on"
+        }
+    },
+    "rules": {
+        "typescript": "on",
+        "putout/multiple-properties-destructuring": "off"
+    },
+    "ignore": [
+        ".husky"
+    ]
+}

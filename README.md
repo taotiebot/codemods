@@ -1,2 +1,7 @@
-# toatie-codemods
-A module containing js codemods for feature flag removal
+# [codemods](https://github.com/taotiebot/codemods)
+
+- TBA
+
+## LICENSE
+
+\[MIT] © Murshid Azher.

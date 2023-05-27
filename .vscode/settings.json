@@ -1,0 +1,34 @@
+{
+  "files.eol": "\n",
+
+  "prettier.requireConfig": true,
+
+  "eslint.enable": true,
+  "eslint.debug": false,
+  "eslint.workingDirectories": [
+    // Monorepo directories
+    { "pattern": "./apps/*/" },
+    { "pattern": "./packages/*/" }
+  ],
+
+  "cSpell.words": [
+    "codemods",
+    "commitlint",
+    "commitlintrc",
+    "dbaeumer",
+    "esbenp",
+    "frontmatter",
+    "lintstaged",
+    "lintstagedrc",
+    "newlevelup",
+    "taotie",
+    "npmrc",
+    "remarkignore",
+    "remarkrc",
+    "sergey",
+    "syncpack",
+    "syncpackrc",
+    "tsbuildinfo",
+    "unifiedjs"
+  ]
+}

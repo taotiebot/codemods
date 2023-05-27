@@ -1,0 +1,14 @@
+{
+    "rules": {
+        "no-useless-return": "off",
+        "@typescript-eslint/array-type": "off"
+    },
+    "extends": [
+        "plugin:n/recommended",
+        "plugin:putout/recommended"
+    ],
+    "plugins": [
+        "putout",
+        "n"
+    ]
+}

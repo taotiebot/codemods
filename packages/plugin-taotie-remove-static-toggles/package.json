@@ -1,0 +1,56 @@
+{
+  "name": "putout-plugin-taotie-remove-static-toggles",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "description": "🐊 Putout plugin for removing static based feature toggles",
+  "author": "Murshid Azher <hello@murshidazher.com>",
+  "homepage": "https://github.com/taotiebot/codemods/tree/main/packages/plugin-taotie-remove-static-toggles#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/taotiebot/codemods.git",
+    "directory": "packages/browserslist-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "bugs": "https://github.com/taotiebot/codemods/issues",
+  "type": "commonjs",
+  "main": "lib/taotie-remove-static-toggles.js",
+  "scripts": {
+    "coverage": "madrun coverage",
+    "fix:lint": "madrun fix:lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint": "madrun lint",
+    "lint:fresh": "madrun lint:fresh",
+    "report": "madrun report",
+    "test": "TAOTIE_FEATURE_TOGGLE_NAME='featureFlag' madrun test",
+    "watch:test": "madrun watch:test"
+  },
+  "devDependencies": {
+    "@putout/test": "^6.0.0",
+    "c8": "^7.5.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-putout": "^17.0.0",
+    "lerna": "^6.0.1",
+    "madrun": "^9.0.0",
+    "nodemon": "^2.0.1"
+  },
+  "peerDependencies": {
+    "putout": ">=27"
+  },
+  "keywords": [
+    "feature flags",
+    "feature toggles",
+    "plugin",
+    "putout",
+    "putout-plugin",
+    "simple configuration",
+    "static configuration",
+    "typescript"
+  ]
+}
